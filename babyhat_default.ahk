@@ -43,10 +43,10 @@
 	}
 return
 *SC01E:: putkey("a", "u", "U", "ü", "Ü", "string", "String", "̛",, "♠", "♤", "☉")
-*SC01F:: putkey("s", "i", "I", "ï", "Ï", "char", "Char",,, "♥", "♡", "☿")
+*SC01F:: putkey("s", "i", "I", "ï", "Ï", "char", "Char", "̈",, "♥", "♡", "☿")
 *SC020:: putkey("d", "e", "E", "é", "É", "int", "Int", "́",, "♦", "♢", "♀")
-*SC021:: putkey("f", "a", "A", "æ", "Æ", "float", "Float", "̀",, "♣", "♧", "⊕")
-*SC022:: putkey("g", "o", "O", "œ", "Œ", "double", "Double", "̈",, "☻", "☺", "♂")
+*SC021:: putkey("f", "a", "A", "æ", "Æ", "float", "Float",,, "♣", "♧", "⊕")
+*SC022:: putkey("g", "o", "O", "œ", "Œ", "double", "Double", "",, "☻", "☺", "♂")
 *SC023:: putkey("h", "r", "R",,, "elsif", "Elsif",,, "♛", "♕", "♃")
 *SC024:: putkey("j", "h", "H",,, "if", "If",,, "♟", "♙", "♄")
 *SC025:: putkey("k", "t", "T", "þ", "Þ", "else", "Else",,, "♞", "♘", "⛢")
