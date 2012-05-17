@@ -227,6 +227,16 @@ return
 	assist()
 return
 
+*Space::
+	modSpace := 1
+	assist()
+return
+
+*Space up::
+	modSpace := 0
+	assist()
+return
+
 CapsLock::
 	if (mode = -1) {
 		mode := 0

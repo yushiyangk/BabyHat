@@ -23,6 +23,7 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", talt = "", talt
 	global modWin
 	global modLWin
 	global modRWin
+	global modSpace
 	global modDk
 	global modDkDiac
 	global modDkPic
@@ -42,6 +43,10 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", talt = "", talt
 			put(dkpicshift)
 		} else if (modDkPic && modAlt && !modShift) {
 			put(dkpicaltgr)
+		}
+	} else if (modSpace) {
+		if (modShift) {
+			put(altgr)
 		}
 	} else {
 		if (!modAlt && !modShift) {
@@ -96,6 +101,7 @@ assist() {
 	global modWin
 	global modLWin
 	global modRWin
+	global modSpace
 	global modDk
 	global modDkDiac
 	global modDkPic
@@ -136,6 +142,11 @@ assist() {
 					GuiControl, , %picId%, res/%imgPrefix%dkpic+altgr.png
 					state := -22
 				}
+			}
+		} else if (modSpace) {
+			if (state != 10) {
+				GuiControl, , %picId%, res/%imgPrefix%altgr.png
+				state := 10
 			}
 		} else {
 			if (!modAlt && !modShift) {
