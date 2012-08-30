@@ -1166,7 +1166,7 @@
 		<text x="390" y="29">–</text>
 		<text x="430" y="29">¤</text>
 		<text x="470" y="29">€</text>
-		<text x="510" y="29">―</text>
+		<text x="510" y="29" style="font-size:11px;">―</text> <!-- <text x="510" y="29">―</text> -->
 		<text x="90" y="69"></text>
 		<text x="130" y="69">µ</text>
 		<text x="170" y="69"></text>
@@ -1177,7 +1177,7 @@
 		<text x="370" y="69"></text>
 		<text x="410" y="69"></text>
 		<text x="450" y="69"></text>
-		<text x="490" y="69">‐</text>
+		<text x="489" y="69">‐</text> <!-- <text x="490" y="69">‐</text> -->
 		<text x="530" y="69">÷</text>
 		<text x="580" y="69"></text>
 		<text x="100" y="109"></text>
@@ -1229,7 +1229,7 @@
 		<text x="450" y="56"></text>
 		<text x="490" y="56">−</text>
 		<text x="530" y="56">×</text>
-		<text style="fill:#cc0000;" x="580" y="56">♣</text>
+		<text style="fill:#cc0000;" x="579" y="56">♣</text> <!-- <text x="580" y="56">♣</text> -->
 		<text x="100" y="96">Ü</text>
 		<text x="140" y="96">Ï</text>
 		<text x="180" y="96">É</text>
@@ -1299,7 +1299,7 @@
 		<text x="301" y="149"></text>
 		<text x="341" y="149">◌̃</text>
 		<text style="text-anchor:middle;font-family:'Arial Unicode MS';" x="389" y="149">◌̧</text> <!-- <text style="text-anchor:middle;" x="390" y="149">◌̧</text> -->
-		<text style="text-anchor:middle;" x="428" y="147">◌̇</text> <!-- <text style="text-anchor:middle;" x="430" y="149">◌̇</text> -->
+		<text style="text-anchor:middle;" x="433" y="143">◌̇</text> <!-- <text style="text-anchor:middle;" x="430" y="149">◌̇</text> -->
 		<text style="text-anchor:middle;" x="470" y="149"></text>
 		<text x="161" y="189"></text>
 	</g>
