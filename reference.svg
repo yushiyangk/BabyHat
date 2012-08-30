@@ -1257,7 +1257,7 @@
 		<text style="text-anchor:middle;" x="20" y="29"></text>
 		<text style="text-anchor:middle;" x="60" y="29"></text>
 		<text style="text-anchor:middle;" x="100" y="29"></text>
-		<text style="text-anchor:middle;" x="140" y="29">◌<tspan style="font-family:'DejaVu Serif';vertical-align:10px;">̋</tspan></text> <!-- <text style="text-anchor:middle;" x="140" y="29">◌̋</text> -->
+		<text style="text-anchor:middle;" x="140" y="29">◌<tspan style="font-family:'DejaVu Serif';">̋</tspan></text> <!-- <text style="text-anchor:middle;" x="140" y="29">◌̋</text> -->
 		<text style="text-anchor:middle;" x="180" y="29">◌<tspan style="font-family:'DejaVu Serif';">̏</tspan></text> <!-- <text style="text-anchor:middle;" x="180" y="29">◌̏</text> -->
 		<text style="text-anchor:middle;" x="219" y="29">◌<tspan style="font-family:'DejaVu Serif';">̔</tspan></text> <!-- <text style="text-anchor:middle;" x="220" y="29">◌̔</text> -->
 		<text style="text-anchor:middle;" x="260" y="29"></text>
