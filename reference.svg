@@ -79,7 +79,7 @@
 					}
 				#fulllabel-a3 text, #fulllabel-a4 text {
 					fill: #008080;
-					font-family: "Arial";
+					font-family: "Gentium Book Basic";
 					}
 				#fulllabel-s1 text {
 					font-size: 4px;
@@ -1130,7 +1130,7 @@
 		<text x="431" y="69"></text>
 		<text x="472" y="69">-</text> <!-- <text x="471" y="69">-</text> -->
 		<text x="511" y="69">/</text>
-		<text style="fill:#cc0000;" x="551" y="69">◌</text>
+		<text style="fill:#cc0000;font-family:'Gentium Book Basic';" x="551" y="69">◌</text> <!-- <text x="551" y="69">◌</text> -->
 		<text x="81" y="109"></text>
 		<text x="121" y="109"></text>
 		<text x="161" y="109"></text>
@@ -1257,13 +1257,13 @@
 		<text style="text-anchor:middle;" x="20" y="29"></text>
 		<text style="text-anchor:middle;" x="60" y="29"></text>
 		<text style="text-anchor:middle;" x="100" y="29"></text>
-		<text style="text-anchor:middle;" x="140" y="29">◌̋</text>
-		<text style="text-anchor:middle;" x="180" y="29">◌̏</text>
-		<text style="text-anchor:middle;" x="219" y="29">◌̔</text> <!-- <text style="text-anchor:middle;" x="220" y="29">◌̔</text> -->
+		<text style="text-anchor:middle;" x="140" y="29">◌<tspan style="font-family:'DejaVu Serif';vertical-align:10px;">̋</tspan></text> <!-- <text style="text-anchor:middle;" x="140" y="29">◌̋</text> -->
+		<text style="text-anchor:middle;" x="180" y="29">◌<tspan style="font-family:'DejaVu Serif';">̏</tspan></text> <!-- <text style="text-anchor:middle;" x="180" y="29">◌̏</text> -->
+		<text style="text-anchor:middle;" x="219" y="29">◌<tspan style="font-family:'DejaVu Serif';">̔</tspan></text> <!-- <text style="text-anchor:middle;" x="220" y="29">◌̔</text> -->
 		<text style="text-anchor:middle;" x="260" y="29"></text>
 		<text style="text-anchor:middle;" x="300" y="29"></text>
-		<text style="text-anchor:middle;" x="339" y="29">◌̓</text> <!-- <text style="text-anchor:middle;" x="340" y="29">◌̓</text> -->
-		<text style="text-anchor:middle;" x="379" y="29">◌̄</text> <!-- <text style="text-anchor:middle;" x="380" y="29">◌̄</text> -->
+		<text style="text-anchor:middle;" x="339" y="29">◌<tspan style="font-family:'DejaVu Serif';">̓</tspan></text> <!-- <text style="text-anchor:middle;" x="340" y="29">◌̓</text> -->
+		<text style="text-anchor:middle;" x="379" y="28">◌̄</text> <!-- <text style="text-anchor:middle;" x="380" y="29">◌̄</text> -->
 		<text style="text-anchor:middle;" x="420" y="29"></text>
 		<text style="text-anchor:middle;" x="460" y="29"></text>
 		<text style="text-anchor:middle;" x="500" y="29"></text>
@@ -1292,13 +1292,13 @@
 		<text x="441" y="109"></text>
 		<text style="text-anchor:middle;" x="490" y="109">◌̊</text>
 		<text x="101" y="149">◌̉</text>
-		<text x="141" y="149">◌̛</text>
+		<text x="141" y="149">◌<tspan style="font-family:'Cambria';">̛</tspan></text>
 		<text style="text-anchor:middle;" x="190" y="149"></text>
 		<text x="221" y="149"></text>
 		<text x="261" y="149"></text>
 		<text x="301" y="149"></text>
 		<text x="341" y="149">◌̃</text>
-		<text style="text-anchor:middle;font-family:'Arial Unicode MS';" x="389" y="149">◌̧</text> <!-- <text style="text-anchor:middle;" x="390" y="149">◌̧</text> -->
+		<text style="text-anchor:middle;" x="389" y="149">◌̧</text> <!-- <text style="text-anchor:middle;" x="390" y="149">◌̧</text> -->
 		<text style="text-anchor:middle;" x="433" y="143">◌̇</text> <!-- <text style="text-anchor:middle;" x="430" y="149">◌̇</text> -->
 		<text style="text-anchor:middle;" x="470" y="149"></text>
 		<text x="161" y="189"></text>
