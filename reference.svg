@@ -1179,7 +1179,7 @@
 		<text x="450" y="69"></text>
 		<text x="490" y="69">‐</text>
 		<text x="530" y="69">÷</text>
-		<text style="fill:#cc0000;" x="579" y="69">⎵</text> <!-- <text style="fill:#cc0000;" x="580" y="69">♣</text> -->
+		<text style="fill:#cc0000;" x="580" y="69">⎵</text> <!-- <text style="fill:#cc0000;" x="580" y="69">♣</text> -->
 		<text x="100" y="109"></text>
 		<text x="140" y="109"></text>
 		<text x="180" y="109"></text>
@@ -1266,7 +1266,7 @@
 		<text style="text-anchor:middle;" x="379" y="29">◌̄</text> <!-- <text style="text-anchor:middle;" x="380" y="29">◌̄</text> -->
 		<text style="text-anchor:middle;" x="420" y="29"></text>
 		<text style="text-anchor:middle;" x="460" y="29"></text>
-		<text style="text-anchor:middle;" x="501" y="30">◌̊</text> <!-- <text style="text-anchor:middle;" x="500" y="29">◌̊</text> -->
+		<text style="text-anchor:middle;" x="500" y="29"></text>
 		<text x="71" y="69"></text>
 		<text x="111" y="69"></text>
 		<text x="151" y="69"></text>
@@ -1274,30 +1274,30 @@
 		<text x="231" y="69"></text>
 		<text x="271" y="69"></text>
 		<text x="311" y="69"></text>
-		<text x="351" y="69">◌̂</text>
+		<text x="351" y="69"></text>
 		<text x="391" y="69"></text>
 		<text x="431" y="69"></text>
 		<text style="text-anchor:middle;" x="480" y="69"></text>
 		<text style="text-anchor:middle;" x="520" y="69"></text>
 		<text style="text-anchor:middle;" x="565" y="69"></text>
-		<text x="81" y="109">◌̛</text>
-		<text x="121" y="109"></text>
+		<text x="81" y="109">◌̆</text>
+		<text x="121" y="109">◌̈</text>
 		<text x="161" y="109">◌́</text>
-		<text x="201" y="109">◌̈</text>
-		<text x="241" y="109">◌̀</text>
-		<text x="281" y="109"></text>
+		<text x="201" y="109">◌̀</text>
+		<text x="241" y="109">◌̂</text>
+		<text x="281" y="109">◌̌</text>
 		<text x="321" y="109"></text>
 		<text x="361" y="109"></text>
-		<text x="401" y="109">◌̃</text>
-		<text x="441" y="109">◌̌</text>
-		<text style="text-anchor:middle;" x="490" y="109"></text>
+		<text x="401" y="109"></text>
+		<text x="441" y="109"></text>
+		<text style="text-anchor:middle;" x="490" y="109">◌̊</text>
 		<text x="101" y="149">◌̉</text>
-		<text x="141" y="149"></text>
+		<text x="141" y="149">◌̛</text>
 		<text style="text-anchor:middle;" x="190" y="149"></text>
 		<text x="221" y="149"></text>
 		<text x="261" y="149"></text>
 		<text x="301" y="149"></text>
-		<text x="341" y="149"></text>
+		<text x="341" y="149">◌̃</text>
 		<text style="text-anchor:middle;font-family:'Arial Unicode MS';" x="389" y="149">◌̧</text> <!-- <text style="text-anchor:middle;" x="390" y="149">◌̧</text> -->
 		<text style="text-anchor:middle;" x="428" y="147">◌̇</text> <!-- <text style="text-anchor:middle;" x="430" y="149">◌̇</text> -->
 		<text style="text-anchor:middle;" x="470" y="149"></text>
@@ -1349,7 +1349,7 @@
 		<text x="301" y="136"></text>
 		<text x="341" y="136"></text>
 		<text style="text-anchor:middle;" x="395" y="136">◌̨</text> <!-- <text style="text-anchor:middle;" x="390" y="136">◌̨</text> -->
-		<text style="text-anchor:middle;" x="435" y="136">◌̣</text> <!--<text style="text-anchor:middle;" x="430" y="136">◌̣</text> -->
+		<text style="text-anchor:middle;" x="430" y="136"></text>
 		<text style="text-anchor:middle;" x="470" y="136"></text>
 		<text x="161" y="176"></text>
 	</g>
