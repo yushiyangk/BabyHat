@@ -1096,8 +1096,8 @@
 		<text x="101" y="136">V</text>
 		<text x="141" y="136">Q</text>
 		<text x="181" y="136">:</text>
-		<text x="221" y="136">X</text>
-		<text x="261" y="136">K</text>
+		<text x="221" y="136">K</text>
+		<text x="261" y="136">Y</text>
 		<text x="301" y="136">L</text>
 		<text x="341" y="136">N</text>
 		<text x="381" y="136">&lt;</text>
@@ -1179,7 +1179,7 @@
 		<text x="450" y="69"></text>
 		<text x="490" y="69">‐</text>
 		<text x="530" y="69">÷</text>
-		<text style="fill:#cc0000;" x="580" y="69">⎵</text> <!-- <text style="fill:#cc0000;" x="580" y="69">♣</text> -->
+		<text x="580" y="69"></text>
 		<text x="100" y="109"></text>
 		<text x="140" y="109"></text>
 		<text x="180" y="109"></text>
@@ -1196,7 +1196,7 @@
 		<text x="200" y="149">&amp;</text>
 		<text x="240" y="149"></text>
 		<text x="280" y="149"></text>
-		<text x="320" y="149">ł</text>
+		<text x="320" y="149"></text>
 		<text x="360" y="149"></text>
 		<text x="400" y="149">¢</text>
 		<text x="441" y="149">…</text> <!-- <text x="440" y="149">…</text> -->
@@ -1229,7 +1229,7 @@
 		<text x="450" y="56"></text>
 		<text x="490" y="56">−</text>
 		<text x="530" y="56">×</text>
-		<text x="580" y="56"></text>
+		<text style="fill:#cc0000;" x="580" y="56">♣</text>
 		<text x="100" y="96">Ü</text>
 		<text x="140" y="96">Ï</text>
 		<text x="180" y="96">É</text>
@@ -1245,7 +1245,7 @@
 		<text x="161" y="136">Ø</text> <!-- <text x="160" y="136">Ø</text> -->
 		<text x="200" y="136">‽</text>
 		<text x="240" y="136"></text>
-		<text x="280" y="136"></text>
+		<text x="280" y="136">Ý</text>
 		<text x="320" y="136">Ł</text>
 		<text x="360" y="136">Ñ</text>
 		<text x="400" y="136"></text>
