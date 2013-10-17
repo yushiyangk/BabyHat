@@ -1326,7 +1326,7 @@ display:none;
 				<text x="301" y="149"></text>
 				<text x="341" y="149">◌̃</text>
 				<text style="text-anchor:middle;" x="389" y="149">◌̧</text> <!-- <text style="text-anchor:middle;" x="390" y="149">◌̧</text> -->
-				<text style="text-anchor:middle;" x="433" y="143">◌̇</text> <!-- <text style="text-anchor:middle;" x="430" y="149">◌̇</text> -->
+				<text style="text-anchor:middle;" x="428" y="147">◌̇</text> <!-- <text style="text-anchor:middle;" x="430" y="149">◌̇</text> -->
 				<text style="text-anchor:middle;" x="470" y="149"></text>
 				<text x="161" y="189"></text>
 			</g>
@@ -1340,7 +1340,7 @@ display:none;
 				<text style="text-anchor:middle;" x="260" y="16"></text>
 				<text style="text-anchor:middle;" x="300" y="16"></text>
 				<text style="text-anchor:middle;" x="340" y="16"></text>
-				<text style="text-anchor:middle;" x="380" y="16"></text>
+				<text style="text-anchor:middle;" x="387" y="21">◌̱</text> <!-- <text style="text-anchor:middle;" x="380" y="16">◌̱</text> -->
 				<text style="text-anchor:middle;" x="420" y="16"></text>
 				<text style="text-anchor:middle;" x="460" y="16"></text>
 				<text style="text-anchor:middle;" x="500" y="16"></text>
@@ -1376,7 +1376,7 @@ display:none;
 				<text x="301" y="136"></text>
 				<text x="341" y="136"></text>
 				<text style="text-anchor:middle;" x="395" y="136">◌̨</text> <!-- <text style="text-anchor:middle;" x="390" y="136">◌̨</text> -->
-				<text style="text-anchor:middle;" x="430" y="136"></text>
+				<text style="text-anchor:middle;" x="435" y="136">◌̣</text> <!-- <text style="text-anchor:middle;" x="430" y="136">◌̣</text> -->
 				<text style="text-anchor:middle;" x="470" y="136"></text>
 				<text x="161" y="176"></text>
 			</g>
