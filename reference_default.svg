@@ -1139,7 +1139,7 @@ display:none;
 				<text x="171" y="29">}</text>
 				<text x="211" y="29">(</text>
 				<text x="250" y="29">@</text> <!-- <text x="251" y="29">@</text> -->
-				<text x="291" y="29">^</text>
+				<text x="291" y="29">=</text>
 				<text x="331" y="29">)</text>
 				<text x="371" y="29">_</text>
 				<text x="412" y="29">]</text> <!-- <text x="411" y="29">]</text> -->
@@ -1193,7 +1193,7 @@ display:none;
 				<text x="390" y="29">–</text>
 				<text x="430" y="29">¤</text>
 				<text x="470" y="29">€</text>
-				<text x="510" y="29" style="font-size:11px;">―</text> <!-- <text x="510" y="29">―</text> -->
+				<text x="510" y="29">^</text>
 				<text x="90" y="69"></text>
 				<text x="130" y="69">µ</text>
 				<text x="170" y="69"></text>
