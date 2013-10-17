@@ -1482,7 +1482,7 @@ display:none;
 			</g>
 			<g id="fulllabel-r1">
 				<text x="36" y="9"></text>
-				<text x="76" y="9"></text>
+				<text x="76" y="9">ʹ</text>
 				<text x="116" y="9"></text>
 				<text x="156" y="9"></text>
 				<text x="196" y="9"></text>
@@ -1504,8 +1504,8 @@ display:none;
 				<text x="376" y="49">Γ</text>
 				<text x="416" y="49">Ψ</text>
 				<text x="456" y="49">Π</text>
-				<text x="496" y="49"></text>
-				<text x="536" y="49"></text>
+				<text style="font-family:'Gentium Book Basic';" x="496" y="49">◌̈</text> <!-- <text x="496" y="49">◌̈</text> -->
+				<text x="536" y="49">Ϝ</text>
 				<text x="586" y="49"></text>
 				<text x="106" y="89">Θ</text>
 				<text x="146" y="89">Ι</text>
@@ -1517,9 +1517,9 @@ display:none;
 				<text x="386" y="89">Τ</text>
 				<text x="426" y="89">Δ</text>
 				<text x="466" y="89">Σ</text>
-				<text x="506" y="89"></text>
-				<text x="126" y="129">ς</text>
-				<text x="166" y="129"></text>
+				<text style="font-family:'Gentium Book Basic';" x="506" y="89">◌́</text> <!-- <text x="506" y="89">◌́</text> -->
+				<text style="font-family:'Cambria';" x="126" y="129">Ϡ</text> <!-- <text x="126" y="129">Ϡ</text> -->
+				<text style="font-family:'Cambria';" x="166" y="129">Ϟ</text> <!-- <text x="166" y="129">Ϟ</text> -->
 				<text x="206" y="129">·</text>
 				<text x="246" y="129">Κ</text>
 				<text x="286" y="129">Υ</text>
@@ -1527,7 +1527,7 @@ display:none;
 				<text x="366" y="129">Ν</text>
 				<text x="406" y="129">,</text>
 				<text x="446" y="129">.</text>
-				<text x="486" y="129">;</text>
+				<text x="486" y="129">;</text>
 				<text x="386" y="169"></text>
 			</g>
 			<g id="fulllabel-r2">
