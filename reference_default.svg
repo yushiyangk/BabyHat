@@ -1499,8 +1499,8 @@ display:none;
 				<text x="176" y="49">Β</text>
 				<text x="216" y="49">Ω</text>
 				<text x="256" y="49">Ξ</text>
-				<text x="296" y="49">Φ</text>
-				<text x="336" y="49">Υ</text>
+				<text x="296" y="49">Χ</text>
+				<text x="336" y="49">Φ</text>
 				<text x="376" y="49">Γ</text>
 				<text x="416" y="49">Ψ</text>
 				<text x="456" y="49">Π</text>
@@ -1515,18 +1515,18 @@ display:none;
 				<text x="306" y="89">Ρ</text>
 				<text x="346" y="89">Η</text>
 				<text x="386" y="89">Τ</text>
-				<text x="426" y="89">Ν</text>
+				<text x="426" y="89">Δ</text>
 				<text x="466" y="89">Σ</text>
-				<text x="506" y="89">◌́</text>
+				<text x="506" y="89"></text>
 				<text x="126" y="129">ς</text>
 				<text x="166" y="129"></text>
-				<text x="206" y="129">·</text>
-				<text x="246" y="129">Χ</text>
-				<text x="286" y="129">Κ</text>
+				<text x="206" y="129">·</text>
+				<text x="246" y="129">Κ</text>
+				<text x="286" y="129">Υ</text>
 				<text x="326" y="129">Λ</text>
-				<text x="366" y="129">Δ</text>
-				<text x="406" y="129"></text>
-				<text x="446" y="129"></text>
+				<text x="366" y="129">Ν</text>
+				<text x="406" y="129">,</text>
+				<text x="446" y="129">.</text>
 				<text x="486" y="129">;</text>
 				<text x="386" y="169"></text>
 			</g>
