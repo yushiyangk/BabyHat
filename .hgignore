@@ -1,0 +1,5 @@
+syntax: glob
+res/svg/base.svg
+utl/*
+res/*
+babyhat.exe
