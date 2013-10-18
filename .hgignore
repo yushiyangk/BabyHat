@@ -2,3 +2,6 @@ syntax: glob
 utl/*
 babyhat.exe
 res/*.png
+keyboard*
+reference*
+babyhat*
