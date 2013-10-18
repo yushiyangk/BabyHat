@@ -230,8 +230,9 @@ return
 *Space::
 	if (!modShift) {
 		put(" ")
+	} else {
+		modSpace := 1
 	}
-	modSpace := 1
 	assist()
 return
 
