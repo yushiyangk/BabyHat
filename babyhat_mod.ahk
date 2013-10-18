@@ -1,10 +1,27 @@
-﻿#include babyhat_custom.ahk
+﻿#include babyhat_combine.ahk
+#include babyhat_custom.ahk
 
 put(glyph) {
+	global prevGlyph
+
+	StringGetPos, diacflag, glyph, !C
 	if (glyph = "") {
 		SoundPlay *-1
+	} else if (diacflag = 0) {
+		StringTrimLeft, diac, glyph, 2
+		combine(diac)
 	} else {
 		Send %glyph%
+		prevGlyph := glyph
+	}
+}
+
+putcomb(diac, dacute, dgrave) {
+	Send {Backspace}
+	if (diac = "́") {
+		put(dacute)
+	} else if (diac = "̛") {
+		put(dgrave)
 	}
 }
 
