@@ -82,6 +82,7 @@ display:none;
 				font-family: "Gentium Book Basic";
 				}
 			#fulllabel-s1 text {
+display:none;
 				font-size: 4px;
 				fill: #800000;
 				}
@@ -1109,7 +1110,7 @@ display:none;
 				<text x="431" y="56">P</text>
 				<text x="471" y="56">+</text>
 				<text x="511" y="56">*</text>
-				<text x="551" y="56">=</text>
+				<text style="fill:#cc0000;" x="551" y="56">`</text> <!-- <text x="551" y="56">`</text> -->
 				<text x="81" y="96">U</text>
 				<text x="121" y="96">I</text>
 				<text x="161" y="96">E</text>
@@ -1493,7 +1494,7 @@ display:none;
 				<text x="356" y="9"></text>
 				<text x="396" y="9"></text>
 				<text x="436" y="9"></text>
-				<text x="476" y="9"></text>
+				<text x="476" y="9">€</text>
 				<text x="516" y="9"></text>
 				<text x="96" y="49">Ζ</text>
 				<text x="136" y="49">Μ</text>
@@ -1505,7 +1506,7 @@ display:none;
 				<text x="376" y="49">Γ</text>
 				<text x="416" y="49">Ψ</text>
 				<text x="456" y="49">Π</text>
-				<text style="font-family:'Gentium Book Basic';" x="496" y="49">◌̈</text> <!-- <text x="496" y="49">◌̈</text> -->
+				<text style="font-family:'Gentium Book Basic';" x="496" y="49">◌<tspan style="font-family:Cambria;">ͅ</tspan></text> <!-- <text x="496" y="49">◌̈</text> -->
 				<text x="536" y="49">Ϝ</text>
 				<text x="586" y="49"></text>
 				<text x="106" y="89">Θ</text>
@@ -1526,8 +1527,8 @@ display:none;
 				<text x="286" y="129">Υ</text>
 				<text x="326" y="129">Λ</text>
 				<text x="366" y="129">Ν</text>
-				<text x="406" y="129">,</text>
-				<text x="446" y="129">.</text>
+				<text x="406" y="129"></text>
+				<text x="446" y="129"></text>
 				<text x="486" y="129">;</text>
 				<text x="386" y="169"></text>
 			</g>
