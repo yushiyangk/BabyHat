@@ -1046,7 +1046,7 @@ display:none;
 				<text x="431" y="56">Π</text>
 				<text x="471" y="56"></text>
 				<text x="511" y="56">Ϝ</text>
-				<text x="551" y="56">=</text>
+				<text style="fill:#cc0000;" x="551" y="56">`</text>
 				<text x="81" y="96">Θ</text>
 				<text x="121" y="96">Ι</text>
 				<text x="161" y="96">Ε</text>
