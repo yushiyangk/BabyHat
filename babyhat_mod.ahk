@@ -165,16 +165,6 @@ assist() {
 					GuiControl, , %picId%, res/%imgPrefix%altgr+shift.png
 					state := 11
 				}
-			} else if (modTAlt && !modShift) {
-				if (state != 20) {
-					GuiControl, , %picId%, res/%imgPrefix%talt.png
-					state := 20
-				}
-			} else if (modTAlt && modShift) {
-				if (state != 21) {
-					GuiControl, , %picId%, res/%imgPrefix%talt+shift.png
-					state := 21
-				}
 			}
 		}
 	}
