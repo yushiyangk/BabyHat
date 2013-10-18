@@ -8,7 +8,7 @@ put(glyph) {
 	}
 }
 
-putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", talt = "", taltshift = "", dkdiac = "", dkdiacshift = "", dkpic = "", dkpicshift = "", dkpicaltgr = "") {
+putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dkdiacshift = "", dkpic = "", dkpicshift = "", dkpicaltgr = "") {
 	global modShift
 	global modLShift
 	global modRShift
@@ -45,9 +45,9 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", talt = "", talt
 			put(dkpicaltgr)
 		}
 	} else if (modSpace) {
-		if (modShift) {
+		;if (modShift) {
 			put(altgr)
-		}
+		;}
 	} else {
 		if (!modAlt && !modShift) {
 			put(base)
@@ -57,10 +57,6 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", talt = "", talt
 			put(altgr)
 		} else if (modAltGr && modShift) {
 			put(altgrshift)
-		} else if (modTAlt && !modShift) {
-			put(talt)
-		} else if (modTAlt && modShift) {
-			put(taltshift)
 		} else {
 			SoundPlay, *-1
 		}
