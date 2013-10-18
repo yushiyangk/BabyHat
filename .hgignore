@@ -1,3 +1,4 @@
 syntax: glob
 utl/*
 babyhat.exe
+res/*
