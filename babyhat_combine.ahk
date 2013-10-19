@@ -1,10 +1,17 @@
-﻿prevGlyph := ""
-
+﻿prevglyph := ""
+prevwin := ""
+prevctrl := ""
 
 combine(diac) {
-	global prevGlyph
+	global prevglyph
+
+	if (ErrorLevel = 1 ) {
+		MsgBox ga
+	}
 
 	if (prevGlyph = "a") {
-		putcomb(diac,"á","à")
+		putcomb(diac, "á", "à")
+	} else {
+		putcomb(diac, "", "")
 	}
 }

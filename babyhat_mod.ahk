@@ -2,7 +2,17 @@
 #include babyhat_custom.ahk
 
 put(glyph) {
-	global prevGlyph
+	global prevglyph
+	global prevwin
+	global prevctrl
+
+	WinGet, curwin, ID, A
+	ControlGetFocus, curctrl, A
+	if (curwin != prevwin || curctrl != prevctrl) {
+		prevwin := curwin
+		prevctrl := curctrl
+		prevglyph := ""
+	}
 
 	StringGetPos, diacflag, glyph, !C
 	if (glyph = "") {
@@ -17,11 +27,17 @@ put(glyph) {
 }
 
 putcomb(diac, dacute, dgrave) {
-	Send {Backspace}
 	if (diac = "́") {
-		put(dacute)
+		curglyph := dacute
 	} else if (diac = "̛") {
-		put(dgrave)
+		curglyph := dgrave
+	}
+
+	if (curglyph = "") {
+		put(diac)
+	} else {
+		Send {Backspace}
+		put(curglyph)
 	}
 }
 
