@@ -1,8 +1,4 @@
-﻿prevglyph := ""
-prevwin := ""
-prevctrl := ""
-
-combine(diac) {
+﻿combine(diac) {
 	global prevglyph
 
 	if (ErrorLevel = 1 ) {

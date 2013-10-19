@@ -1,4 +1,8 @@
-﻿#include babyhat_combine.ahk
+﻿prevglyph := ""
+prevwin := ""
+prevctrl := ""
+
+#include babyhat_combine.ahk
 #include babyhat_custom.ahk
 
 put(glyph) {
@@ -202,3 +206,63 @@ assist() {
 		}
 	}
 }
+
+~*LButton::
+	prevglyph := ""
+return
+
+~*RButton::
+	prevglyph := ""
+return
+
+~*MButton::
+	prevglyph := ""
+return
+
+~*Backspace::
+	prevglyph := ""
+return
+
+~*Delete::
+	prevglyph := ""
+return
+
+~*Enter::
+	prevglyph := ""
+return
+
+~*Escape::
+	prevglyph := ""
+return
+
+~*Up::
+	prevglyph := ""
+return
+
+~*Down::
+	prevglyph := ""
+return
+
+~*Left::
+	prevglyph := ""
+return
+
+~*Right::
+	prevglyph := ""
+return
+
+~*Home::
+	prevglyph := ""
+return
+
+~*End::
+	prevglyph := ""
+return
+
+~*PgUp::
+	prevglyph := ""
+return
+
+~*PgDn::
+	prevglyph := ""
+return
