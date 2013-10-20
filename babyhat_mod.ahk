@@ -237,10 +237,6 @@ return
 	prevGlyph := ""
 return
 
-~*Escape::
-	prevGlyph := ""
-return
-
 ~*Up::
 	prevGlyph := ""
 return

@@ -129,6 +129,7 @@ WM_Command(wP) {
 
 ~*Escape::
 	breakdk()
+	prevGlyph := ""
 return
 
 ~*LShift::
