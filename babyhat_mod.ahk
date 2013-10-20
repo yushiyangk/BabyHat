@@ -1,27 +1,27 @@
-﻿prevglyph := ""
-prevwin := ""
-prevctrl := ""
+﻿prevGlyph := ""
+prevWin := ""
+prevCtrl := ""
 
 #include babyhat_combine.ahk
 #include babyhat_custom.ahk
 
 put(glyph) {
-	global prevglyph
-	global prevwin
-	global prevctrl
+	global prevGlyph
+	global prevWin
+	global prevCtrl
 
-	WinGet, curwin, ID, A
-	ControlGetFocus, curctrl, A
-	if (curwin != prevwin || curctrl != prevctrl) {
-		prevwin := curwin
-		prevctrl := curctrl
-		prevglyph := ""
+	WinGet, curWin, ID, A
+	ControlGetFocus, curCtrl, A
+	if (curWin != prevWin || curCtrl != prevCtrl) {
+		prevWin := curWin
+		prevCtrl := curCtrl
+		prevGlyph := ""
 	}
 
-	StringGetPos, diacflag, glyph, !C
+	StringGetPos, diacFlag, glyph, !C
 	if (glyph = "") {
 		SoundPlay *-1
-	} else if (diacflag = 0) {
+	} else if (diacFlag = 0) {
 		StringTrimLeft, diac, glyph, 2
 		combine(diac)
 	} else {
@@ -32,16 +32,16 @@ put(glyph) {
 
 putcomb(diac, dacute, dgrave) {
 	if (diac = "́") {
-		curglyph := dacute
+		curGlyph := dacute
 	} else if (diac = "̛") {
-		curglyph := dgrave
+		curGlyph := dgrave
 	}
 
-	if (curglyph = "") {
+	if (curGlyph = "") {
 		put(diac)
 	} else {
 		Send {Backspace}
-		put(curglyph)
+		put(curGlyph)
 	}
 }
 
@@ -207,62 +207,66 @@ assist() {
 	}
 }
 
+breakdk() {
+
+}
+
 ~*LButton::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*RButton::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*MButton::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Backspace::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Delete::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Enter::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Escape::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Up::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Down::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Left::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Right::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*Home::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*End::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*PgUp::
-	prevglyph := ""
+	prevGlyph := ""
 return
 
 ~*PgDn::
-	prevglyph := ""
+	prevGlyph := ""
 return

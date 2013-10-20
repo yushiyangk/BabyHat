@@ -127,6 +127,10 @@ WM_Command(wP) {
 	}
 }
 
+~*Escape::
+
+return
+
 ~*LShift::
 	modShift := 1
 	modLShift := 1

@@ -28,13 +28,17 @@
 		remapCtrl("\")
 	} else if (modWin) {
 		remapWin("\")
-	} else if (!modDk && !modAlt && !modShift) {
+	} else if (modDk) {
+		modDk := 0
+		modDkDiac := 0
+		modDkPic := 0
+	} else if (!modAlt && !modShift) {
 		modDk := 1
 		modDkDiac := 1
 		assist()
-	} else if (!modDk && !modAlt && modShift) {
+	} else if (!modAlt && modShift) {
 		Send {Raw}=
-	} else if (!modDk && modAlt && !modShift) {
+	} else if (modAlt && !modShift) {
 		modDk := 1
 		modDkPic := 1
 		assist()
