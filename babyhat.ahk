@@ -133,58 +133,72 @@ WM_Command(wP) {
 return
 
 ~*LButton::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*RButton::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*MButton::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Backspace::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Delete::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Enter::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Up::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Down::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Left::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Right::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*Home::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*End::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*PgUp::
+	breakdk()
 	prevGlyph := ""
 return
 
 ~*PgDn::
+	breakdk()
 	prevGlyph := ""
 return
 
