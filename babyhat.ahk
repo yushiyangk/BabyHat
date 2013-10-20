@@ -132,6 +132,62 @@ WM_Command(wP) {
 	prevGlyph := ""
 return
 
+~*LButton::
+	prevGlyph := ""
+return
+
+~*RButton::
+	prevGlyph := ""
+return
+
+~*MButton::
+	prevGlyph := ""
+return
+
+~*Backspace::
+	prevGlyph := ""
+return
+
+~*Delete::
+	prevGlyph := ""
+return
+
+~*Enter::
+	prevGlyph := ""
+return
+
+~*Up::
+	prevGlyph := ""
+return
+
+~*Down::
+	prevGlyph := ""
+return
+
+~*Left::
+	prevGlyph := ""
+return
+
+~*Right::
+	prevGlyph := ""
+return
+
+~*Home::
+	prevGlyph := ""
+return
+
+~*End::
+	prevGlyph := ""
+return
+
+~*PgUp::
+	prevGlyph := ""
+return
+
+~*PgDn::
+	prevGlyph := ""
+return
+
 ~*LShift::
 	modShift := 1
 	modLShift := 1
