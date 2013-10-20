@@ -45,7 +45,7 @@ putcomb(diac, dacute, dgrave) {
 	}
 }
 
-putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dkdiacshift = "", dkpic = "", dkpicshift = "", dkpicaltgr = "") {
+putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dkdiacshift = "") {
 	global modShift
 	global modLShift
 	global modRShift
@@ -63,7 +63,6 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dk
 	global modSpace
 	global modDk
 	global modDkDiac
-	global modDkPic
 
 	if (modCtrl) {
 		remapCtrl(ctrl)
@@ -74,12 +73,6 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dk
 			put(dkdiac)
 		} else if (modDkDiac && !modAlt && modShift) {
 			put(dkdiacshift)
-		} else if (modDkPic && !modAlt && !modShift) {
-			put(dkpic)
-		} else if (modDkPic && !modAlt && modShift) {
-			put(dkpicshift)
-		} else if (modDkPic && modAlt && !modShift) {
-			put(dkpicaltgr)
 		}
 	} else if (modSpace) {
 		;if (modShift) {
@@ -104,11 +97,9 @@ putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dk
 deadkey() {
 	global modDk
 	global modDkDiac
-	global modDkPic
 
 	modDk := 0
 	modDkDiac := 0
-	modDkPic := 0
 	assist()
 }
 
@@ -137,7 +128,6 @@ assist() {
 	global modSpace
 	global modDk
 	global modDkDiac
-	global modDkPic
 
 	if (modCtrl || modWin) {
 		if (assist && assistState) {
@@ -159,21 +149,6 @@ assist() {
 				if (state != -11) {
 					GuiControl, , %picId%, res/%imgPrefix%dkdiac+shift.png
 					state := -11
-				}
-			} else if (modDkPic && !modAlt && !modShift) {
-				if (state != -20) {
-					GuiControl, , %picId%, res/%imgPrefix%dkpic.png
-					state := -20
-				}
-			} else if (modDkPic && !modAlt && modShift) {
-				if (state != -21) {
-					GuiControl, , %picId%, res/%imgPrefix%dkpic+shift.png
-					state := -21
-				}
-			} else if (modDkPic && modAlt && !modShift) {
-				if (state != -22) {
-					GuiControl, , %picId%, res/%imgPrefix%dkpic+altgr.png
-					state := -22
 				}
 			}
 		} else if (modSpace) {
@@ -205,16 +180,4 @@ assist() {
 			}
 		}
 	}
-}
-
-breakdk() {
-	global modDk
-	global modDkDiac
-	global modDkPic
-
-	modDk := 0
-	modDkDiac := 0
-	modDkPic := 0
-
-	assist()
 }

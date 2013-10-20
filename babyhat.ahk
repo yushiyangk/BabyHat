@@ -128,77 +128,77 @@ WM_Command(wP) {
 }
 
 ~*Escape::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*LButton::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*RButton::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*MButton::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Backspace::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Delete::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Enter::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Up::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Down::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Left::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Right::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*Home::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*End::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*PgUp::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
 ~*PgDn::
-	breakdk()
+	deadkey()
 	prevGlyph := ""
 return
 
