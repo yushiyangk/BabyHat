@@ -208,7 +208,13 @@ assist() {
 }
 
 breakdk() {
+	global modDk
+	global modDkDiac
+	global modDkPic
+
 	modDk := 0
 	modDkDiac := 0
 	modDkPic := 0
+
+	assist()
 }
