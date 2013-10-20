@@ -1219,8 +1219,8 @@ display:none;
 				<text x="380" y="109"></text>
 				<text x="420" y="109"></text>
 				<text x="458" y="109">ſ</text> <!-- <text x="460" y="109">ſ</text> -->
-				<text x="500" y="109">•</text>
-				<text x="119" y="149">ʌ</text> <!-- <text x="120" y="149">ʌ</text> -->
+				<text x="500" y="109">·</text>
+				<text x="119" y="149"></text> <!-- <text x="120" y="149">ʌ</text> -->
 				<text x="160" y="149"></text>
 				<text x="200" y="149">&amp;</text>
 				<text x="240" y="149"></text>
@@ -1248,9 +1248,9 @@ display:none;
 				<text x="511" y="16" style="font-size:11px;">‰</text> <!-- <text x="510" y="16">‰</text> -->
 				<text x="90" y="56"></text>
 				<text x="130" y="56"></text>
-				<text x="170" y="56">È</text>
-				<text x="210" y="56">À</text>
-				<text x="250" y="56">Ö</text>
+				<text x="170" y="56"></text>
+				<text x="210" y="56"></text>
+				<text x="250" y="56"></text>
 				<text x="290" y="56"></text>
 				<text x="330" y="56"></text>
 				<text x="370" y="56">Ĝ</text>
@@ -1270,12 +1270,12 @@ display:none;
 				<text x="420" y="96">Ð</text>
 				<text x="460" y="96">ß</text>
 				<text x="500" y="96">°</text>
-				<text x="120" y="136">Ʌ</text>
+				<text x="120" y="136"></text>
 				<text x="161" y="136">Ø</text> <!-- <text x="160" y="136">Ø</text> -->
 				<text x="200" y="136">‽</text>
 				<text x="240" y="136">Å</text>
-				<text x="280" y="136">Ý</text>
-				<text x="320" y="136">Ł</text>
+				<text x="280" y="136"></text>
+				<text x="320" y="136"></text>
 				<text x="360" y="136">Ñ</text>
 				<text x="400" y="136"></text>
 				<text x="440" y="136"></text>
