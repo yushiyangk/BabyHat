@@ -1110,7 +1110,7 @@ display:none;
 				<text x="431" y="56">P</text>
 				<text x="471" y="56">+</text>
 				<text x="511" y="56">*</text>
-				<text style="fill:#cc0000;" x="551" y="56">`</text> <!-- <text x="551" y="56">`</text> -->
+				<!-- <text style="fill:#cc0000;" x="551" y="56">`</text> --> <!-- <text x="551" y="56">`</text> -->
 				<text x="81" y="96">U</text>
 				<text x="121" y="96">I</text>
 				<text x="161" y="96">E</text>
@@ -1258,7 +1258,7 @@ display:none;
 				<text x="450" y="56"></text>
 				<text x="490" y="56">−</text>
 				<text x="530" y="56">×</text>
-				<text style="fill:#cc0000;" x="579" y="56">♣</text> <!-- <text x="580" y="56">♣</text> -->
+				<!-- <text style="fill:#cc0000;" x="579" y="56">♣</text> --> <!-- <text x="580" y="56">♣</text> -->
 				<text x="100" y="96">Ü</text>
 				<text x="140" y="96">Ï</text>
 				<text x="180" y="96">É</text>
