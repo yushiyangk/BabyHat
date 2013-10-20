@@ -208,7 +208,9 @@ assist() {
 }
 
 breakdk() {
-
+	modDk := 0
+	modDkDiac := 0
+	modDkPic := 0
 }
 
 ~*LButton::

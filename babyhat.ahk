@@ -128,7 +128,7 @@ WM_Command(wP) {
 }
 
 ~*Escape::
-
+	breakdk()
 return
 
 ~*LShift::

@@ -29,9 +29,7 @@
 	} else if (modWin) {
 		remapWin("\")
 	} else if (modDk) {
-		modDk := 0
-		modDkDiac := 0
-		modDkPic := 0
+		breakdk()
 	} else if (!modAlt && !modShift) {
 		modDk := 1
 		modDkDiac := 1
