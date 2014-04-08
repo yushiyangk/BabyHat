@@ -30,21 +30,6 @@ put(glyph) {
 	}
 }
 
-putcomb(diac, dacute, dgrave) {
-	if (diac = "́") {
-		curGlyph := dacute
-	} else if (diac = "̛") {
-		curGlyph := dgrave
-	}
-
-	if (curGlyph = "") {
-		put(diac)
-	} else {
-		Send {Backspace}
-		put(curGlyph)
-	}
-}
-
 putkey(ctrl, base = "", shift = "", altgr = "", altgrshift = "", dkdiac = "", dkdiacshift = "") {
 	global modShift
 	global modLShift
