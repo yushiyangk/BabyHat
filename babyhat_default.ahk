@@ -10,7 +10,7 @@
 *SC00A:: putkey("9", "_", "4", "–", "—", "!C̄", "!C̱")
 *SC00B:: putkey("0", "]", "6", "¤", "¥")
 *SC00C:: putkey("-", "$", "8", "€", "£")
-*SC00D:: putkey("{Raw}=", "|", "%", "^", "‰")
+*SC00D:: putkey("{Raw}=", "|", "%", "{Raw}^", "‰")
 *SC010:: putkey("q", "z", "Z")
 *SC011:: putkey("w", "m", "M", "µ")
 *SC012:: putkey("e", "b", "B")
@@ -30,16 +30,12 @@
 		remapWin("\")
 	} else if (modDk) {
 		deadkey()
-	} else if (!modAlt && !modShift) {
+	} else if (!modAlt) {
 		modDk := 1
 		modDkDiac := 1
 		assist()
-	} else if (!modAlt && modShift) {
-		Send {Raw}=
 	} else if (modAlt && !modShift) {
-		modDk := 1
-		modDkPic := 1
-		assist()
+		Send {Raw}=
 	} else {
 		SoundPlay, *-1
 	}
