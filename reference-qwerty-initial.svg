@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.0" baseProfile="full" width="1208" height="408"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+	<style type="text/css"><![CDATA[
+		#base {
+			fill: #333333;
+			}
+		.key .mask {
+			fill: #eeeeee;
+			}
+		.key .tt, .key .ll {
+			fill: #d4d4d4;
+			}
+		.key .bb, .key .rr {
+			fill: #aaaaaa;
+			}
+		.key .tr {
+			fill: url(#gr-tr);
+			}
+		.key .tl {
+			fill: url(#gr-tl);
+			}
+		.key .bl {
+			fill: url(#gr-bl);
+			}
+		.key .br {
+			fill: url(#gr-br);
+			}
+		.key .face {
+			fill: url(#gr-face);
+			stroke: #eeeeee;
+			stroke-width: 1px;
+			}
+		text {
+			font-family: "Linux Biolinum G";
+			font-size: 24px;
+			text-anchor: start;
+			fill: black;
+			opacity: .8;
+			}
+		text.lm {
+			}
+		text.la {
+			text-anchor: end;
+			fill: #000080;
+			}
+		text.ls {
+			fill: #008080;
+			}
+		text.lc {
+			fill: #008080;
+			font-family: "Gentium Book Basic";
+			}
+	]]></style>
+	<defs>
+		<g id="key" class="key">
+			<rect class="mask" x="2" y="2" width="76" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="48" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="48" height="18" />
+			<rect class="rr" x="56" y="8" width="22" height="60" />
+			<rect class="tr" x="58" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="58" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 32,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l 0,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key5" class="key">
+			<rect class="mask" x="2" y="2" width="96" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="68" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="68" height="18" />
+			<rect class="rr" x="76" y="8" width="22" height="60" />
+			<rect class="tr" x="78" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="78" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 52,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -20,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key6" class="key">
+			<rect class="mask" x="2" y="2" width="116" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="88" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="88" height="18" />
+			<rect class="rr" x="96" y="8" width="22" height="60" />
+			<rect class="tr" x="98" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="98" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 72,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -40,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key7" class="key">
+			<rect class="mask" x="2" y="2" width="136" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="108" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="108" height="18" />
+			<rect class="rr" x="116" y="8" width="22" height="60" />
+			<rect class="tr" x="118" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="118" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 92,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -60,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key8" class="key">
+			<rect class="mask" x="2" y="2" width="156" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="128" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="128" height="18" />
+			<rect class="rr" x="136" y="8" width="22" height="60" />
+			<rect class="tr" x="138" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="138" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 112,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -80,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key9" class="key">
+			<rect class="mask" x="2" y="2" width="176" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="148" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="148" height="18" />
+			<rect class="rr" x="156" y="8" width="22" height="60" />
+			<rect class="tr" x="158" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="158" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 132,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -100,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key11" class="key">
+			<rect class="mask" x="2" y="2" width="216" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="188" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="188" height="18" />
+			<rect class="rr" x="196" y="8" width="22" height="60" />
+			<rect class="tr" x="198" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="198" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 172,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -140,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<g id="key25" class="key">
+			<rect class="mask" x="2" y="2" width="496" height="76" rx="6" ry="6" />
+			<rect class="tt" x="16" y="2" width="468" height="14" />
+			<rect class="ll" x="2" y="8" width="22" height="60" />
+			<rect class="bb" x="16" y="60" width="468" height="18" />
+			<rect class="rr" x="476" y="8" width="22" height="60" />
+			<rect class="tr" x="478" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="tl" x="2" y="2" width="20" height="20" rx="6" ry="6" />
+			<rect class="bl" x="2" y="58" width="20" height="20" rx="6" ry="6" />
+			<rect class="br" x="478" y="58" width="20" height="20" rx="6" ry="6" />
+			<path class="face" d="M 24,8 l 452,0 q 8,0 8,8 l 0,44 q 0,8 -24,8 l -420,0 q -24,0 -24,-8 l 0,-44 q 0,-8 8,-8 Z" />
+		</g>
+		<linearGradient id="gr-tr" x1="25%" y1="65%" x2="0%" y2="0%">
+			<stop offset="15%" style="stop-color:#aaaaaa;stop-opacity:1" />
+			<stop offset="50%" style="stop-color:#dddddd;stop-opacity:1" />
+			<stop offset="85%" style="stop-color:#d4d4d4;stop-opacity:1" />
+		</linearGradient>
+		<linearGradient id="gr-tl" x1="0%" y1="65%" x2="25%" y2="0%">
+			<stop offset="50%" style="stop-color:#d4d4d4;stop-opacity:1" />
+			<stop offset="75%" style="stop-color:#eeeeee;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#d4d4d4;stop-opacity:1" />
+		</linearGradient>
+		<linearGradient id="gr-bl" x1="30%" y1="0%" x2="95%" y2="80%">
+			<stop offset="25%" style="stop-color:#d4d4d4;stop-opacity:1" />
+			<stop offset="50%" style="stop-color:#dddddd;stop-opacity:1" />
+			<stop offset="75%" style="stop-color:#aaaaaa;stop-opacity:1" />
+		</linearGradient>
+		<linearGradient id="gr-br" x1="100%" y1="0%" x2="30%" y2="100%">
+			<stop offset="40%" style="stop-color:#aaaaaa;stop-opacity:1" />
+			<stop offset="60%" style="stop-color:#b4b4b4;stop-opacity:1" />
+			<stop offset="80%" style="stop-color:#aaaaaa;stop-opacity:1" />
+		</linearGradient>
+		<linearGradient id="gr-face" x1="0%" y1="25%" x2="100%" y2="75%">
+			<stop offset="0%" style="stop-color:#cccccc;stop-opacity:1" />
+			<stop offset="56%" style="stop-color:#eeeeee;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#dddddd;stop-opacity:1" />
+		</linearGradient>
+	</defs>
+	<g transform="translate(2, 2)">
+		<rect id="base" x="-2" y="-2" width="1204" height="404" rx="10" ry="10" />
+		<g> <!-- row 12345 -->
+			<g transform="translate(0, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(80, 0)"><use xlink:href="#key" />
+				<text class="lm" x="24" y="32">!</text>  <!-- x+2 -->
+				<text class="lm" x="22" y="58">1</text>
+				<text class="la" x="58" y="32">¡</text>  <!-- x-2 -->
+			</g>
+			<g transform="translate(160, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(240, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(320, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(400, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(480, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(560, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(640, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(720, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(800, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(880, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(960, 0)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(1040, 0)"><use xlink:href="#key8" />
+			</g>
+		</g>
+		<g> <!-- row qwerty -->
+			<g transform="translate(0, 80)"><use xlink:href="#key6" />
+			</g>
+			<g transform="translate(120, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">Q</text>
+				<text class="la" x="61" y="32">Ø</text>  <!-- x+1 -->
+			</g>
+			<g transform="translate(200, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">W</text>
+				<text class="la" x="60" y="32">Ƿ</text>
+			</g>
+			<g transform="translate(280, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">E</text>
+				<text class="la" x="60" y="32">É</text>
+				<text class="lc" x="22" y="58">◌́</text>
+			</g>
+			<g transform="translate(360, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">R</text>
+				<text class="la" x="60" y="32">Ř</text>
+				<text class="lc" x="22" y="58">◌̌</text>
+			</g>
+			<g transform="translate(440, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">T</text>
+			</g>
+			<g transform="translate(520, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">Y</text>
+				<text class="la" x="60" y="32">Ȝ</text>
+			</g>
+			<g transform="translate(600, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">U</text>
+				<text class="la" x="60" y="32">Ü</text>
+			</g>
+			<g transform="translate(680, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">I</text>
+				<text class="la" x="60" y="32">Ï</text>
+				<text class="lc" x="22" y="58">◌̈</text>
+			</g>
+			<g transform="translate(760, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">O</text>
+				<text class="la" x="60" y="32">Œ</text>  <!-- x+1 -->
+				<text class="lc" x="22" y="58">◌̂</text>
+			</g>
+			<g transform="translate(840, 80)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">P</text>
+			</g>
+			<g transform="translate(920, 80)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(1000, 80)"><use xlink:href="#key" />
+			</g>
+			<g transform="translate(1080, 80)"><use xlink:href="#key6" />
+			</g>
+		</g>
+		<g> <!-- row asdfg -->
+			<g transform="translate(0, 160)"><use xlink:href="#key7" />
+			</g>
+			<g transform="translate(140, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">A</text>
+				<text class="la" x="60" y="32">Æ</text>
+				<text class="lc" x="22" y="58">◌̀</text>
+			</g>
+			<g transform="translate(220, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">S</text>
+				<text class="la" x="60" y="32">ẞ</text>
+				<text class="ls" x="22" y="58">ſ</text>
+			</g>
+			<g transform="translate(300, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">D</text>
+				<text class="la" x="60" y="32">Ð</text>
+			</g>
+			<g transform="translate(380, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">F</text>
+			</g>
+			<g transform="translate(460, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">G</text>
+			</g>
+			<g transform="translate(540, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">H</text>
+				<text class="la" x="60" y="32">Ħ</text>
+			</g>
+			<g transform="translate(620, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">J</text>
+				<text class="la" x="60" y="32">İ</text>
+				<text class="la" x="60" y="58">ı</text>
+			</g>
+			<g transform="translate(700, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">K</text>
+			</g>
+			<g transform="translate(780, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">L</text>
+				<text class="la" x="60" y="32">Ł</text>
+			</g>
+			<g transform="translate(860, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">:</text>
+				<text class="lm" x="22" y="56">;</text>  <!-- y-2 -->
+			</g>
+			<g transform="translate(940, 160)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">"</text>
+				<text class="lm" x="22" y="58">'</text>
+			</g>
+			<g transform="translate(1020, 160)"><use xlink:href="#key9" />
+			</g>
+		</g>
+		<g> <!-- row zxcv -->
+			<g transform="translate(0, 240)"><use xlink:href="#key9" />
+			</g>
+			<g transform="translate(180, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">Z</text>
+			</g>
+			<g transform="translate(260, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">X</text>
+			</g>
+			<g transform="translate(340, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">C</text>
+				<text class="la" x="60" y="32">Ç</text>
+				<text class="lc" x="22" y="56">◌̧</text>  <!-- y-2 -->
+			</g>
+			<g transform="translate(420, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">V</text>
+			</g>
+			<g transform="translate(500, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">B</text>
+			</g>
+			<g transform="translate(580, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">N</text>
+				<text class="la" x="60" y="32">Ñ</text>
+				<text class="lc" x="22" y="58">◌̃</text>
+			</g>
+			<g transform="translate(660, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">M</text>
+				<text class="la" x="60" y="56">μ</text>  <!-- y-2 -->
+			</g>
+			<g transform="translate(740, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">&lt;</text>
+				<text class="lm" x="22" y="56">,</text>  <!-- y-2 -->
+			</g>
+			<g transform="translate(820, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">&gt;</text>
+				<text class="lm" x="22" y="56">.</text>  <!-- y-2 -->
+			</g>
+			<g transform="translate(900, 240)"><use xlink:href="#key" />
+				<text class="lm" x="22" y="32">?</text>
+				<text class="lm" x="22" y="58">/</text>
+				<text class="la" x="60" y="32">¿</text>
+			</g>
+			<g transform="translate(980, 240)"><use xlink:href="#key11" />
+			</g>
+		</g>
+		<g> <!-- row space -->
+			<g transform="translate(0, 320)"><use xlink:href="#key5" />
+			</g>
+			<g transform="translate(100, 320)"><use xlink:href="#key5" />
+			</g>
+			<g transform="translate(200, 320)"><use xlink:href="#key5" />
+			</g>
+			<g transform="translate(300, 320)"><use xlink:href="#key25" />
+			</g>
+			<g transform="translate(800, 320)"><use xlink:href="#key5" />
+			</g>
+			<g transform="translate(900, 320)"><use xlink:href="#key5" />
+			</g>
+			<g transform="translate(1000, 320)"><use xlink:href="#key5" />
+			</g>
+			<g transform="translate(1100, 320)"><use xlink:href="#key5" />
+			</g>
+		</g>
+	</g>
+</svg>
